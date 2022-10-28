@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to Rock Paper Scissors Lizard Spock!</h1>
+    
+    <h1>Choose an option <%= name %>!</h1>
+    <form action="/result" method="post">
+      <input id="rock-button" type="radio" value="Rock" name="choice">Rock
+      <input id="paper-button" type="radio" value="Paper" name="choice" >Paper
+      <input id="scissors-button" type="radio" value="Scissors" name="choice">Scissors
+      <input id="lizard-button" type="radio" value="Lizard" name="choice">Lizard
+      <input id="spock-button" type="radio" value="Spock" name="choice">Spock
+      <br>
+      <br>
+      <input id="attack-button" type="submit" value="Submit!">
+    </form>
+  </body>
+</html>
